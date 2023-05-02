@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    /* background-color: rgb(248, 243, 245); */
+}
+
+.image {
+    max-width: 400px;
+    max-height: 400px;
+    height: 400px;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    margin: 1em;
+    border-radius: 20px;
+    filter: drop-shadow(18px 20px 25px #ebd4d4);
+    -webkit-filter: drop-shadow(18px 20px 25px #ebd4d4);
+    -moz-filter: drop-shadow(18px 20px 25px #ebd4d4);  
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.input-div {
+    margin: 0.5em;
+    margin-left: 1em;
+}
+input[type="text"]{
+    padding: 10px;
+   
+}
